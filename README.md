@@ -4,7 +4,7 @@ Even Einstein understood that you cannot just separate space and time. At one pl
 
 ## How does spazetime work?
 
-Spazetime consists of two components, spaze and time. Time is simply the local solar time. The day starts when the night is at its darkest, 00:00 and ends 24 hours later. 12:00 then naturally conicides with noon. Spaze is related to the longitudinal position, and has the same units as time: hours, minutes and seconds. One lap around the world equals 24 hours of spaze. In other words you can simply calculate spaze by dividing the longitude with 15. Both spaze and time can nowadays easily be obtained with a mobile phone, by using the GPS and the Coordinated Universal Time (UTC), and converting the UTC to the local solar time, with the help of spaze.
+Spazetime consists of two components, spaze and time. Time is simply the local solar time. The day starts when the night is at its darkest, 00:00 and ends 24 hours later. 12:00 then naturally conicides with noon. Spaze is related to the longitudinal position, and has the same units as time: hours, minutes and seconds. One lap around the world equals 24 hours of spaze. In other words you can simply calculate spaze by dividing the longitude with 15. Both spaze and time can nowadays easily be obtained with a mobile phone, by using the GPS and the Coordinated Universal Time (UTC), and finally converting the UTC to local solar time, with the help of spaze.
 
 When communicating with other people, people should always use both spaze and time. Nothing more then needs to be specified. No time zones need to be considered, they are completely obsolete. No more summer time or winter time. No more misunderstandings when setting up phone meetings accross continents.
 
