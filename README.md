@@ -9,7 +9,7 @@ Spazetime consists of two components, spaze and time. Time is simply the local s
 When communicating with other people, people should always use both spaze and time. Nothing more then needs to be specified. No time zones need to be considered, they are completely obsolete. No more summer time or winter time. No more misunderstandings when setting up phone meetings accross continents.
 
 
-### <u>Example 1:</u>
+--- Example 1:
 
 (1) The Mumbai office sets up a meeting at {Spaze: -5:00, Time: 14:00}
 
@@ -29,7 +29,7 @@ Answer:
 
 The meeting time is at local time 8:00 given your location.
 
-### Example 2:
+--- Example 2:
 
 (1) You are at {Spaze: 1:00, Time: 10:30} 
 
