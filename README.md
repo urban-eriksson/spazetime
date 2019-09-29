@@ -18,9 +18,11 @@ Example 1:
 What is the local meeting time for you?
 
 Solution:
-<div>
-Transform point (1) to the spaze where you are located. The rule when doing tranformations in spaze is to the keep the sum of the two spazetime components constant. In this case that sum is equal to 9:00. Point (1) then becomes:
-</div>
+
+Transform point (1) to the spaze where you are located. The rule when doing tranformations in spaze
+is to the keep the sum of the two spazetime components constant.
+In this case that sum is equal to 9:00. Point (1) then becomes:
+
 (1') {Spaze: 1:00, Time: 8:00}
 
 Answer:
