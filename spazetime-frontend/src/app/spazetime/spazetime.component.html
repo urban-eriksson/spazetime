@@ -1,0 +1,15 @@
+<div class="info-button">
+    <mat-icon (click)="getLocation()">info</mat-icon>
+</div>
+
+<div class="upper-half">
+    <div class="time">
+        {{ utcTime | date: 'HH:mm:ss' : 'UTC' }}
+    </div>
+</div>
+
+<div class="lower-half">
+    <div class="spaze">
+        {{ spazeSign }}{{spazeHours}}:{{spazeMinutes}}:{{spazeSeconds}}
+    </div>
+</div>

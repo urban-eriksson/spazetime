@@ -1,0 +1,53 @@
+.upper-half {
+    height: 50%;
+    width: 100%;
+    background: black;
+    border: solid 1px red;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lower-half {
+    height: 50%;
+    width: 100%;
+    background: white;
+    border: solid 1px purple;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-button {
+    width: 100%;
+    position: absolute;
+    display: block;
+    text-align: right;
+}
+
+.mat-icon {
+    color: white;
+    font-size: 48px;
+    margin-right: 48px;
+    margin-top: 24px;
+}
+
+.mat-icon:hover {
+    cursor: pointer;
+}
+
+.time {
+    color: white;
+    font-size: 96px;
+    margin-bottom: 24px;
+    border: solid 1px green;
+}
+
+.spaze {
+    color: black;
+    font-size: 96px;
+    margin-top: 24px;
+    border: solid 1px green;
+}
