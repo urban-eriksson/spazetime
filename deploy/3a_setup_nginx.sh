@@ -11,7 +11,7 @@ server {
     listen 80;
     listen [::]:80;
     
-    root /home/ubuntu/spazetime/dist/spazetime;
+    root /home/ubuntu/spazetime/spazetime-frontend/dist/spazetime-frontend;
     
     server_name _;
 	
