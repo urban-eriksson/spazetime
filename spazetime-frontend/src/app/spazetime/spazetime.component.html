@@ -1,10 +1,15 @@
+
 <div class="info-button">
-    <mat-icon (click)="getLocation()">info</mat-icon>
+    <a routerLink="/about">
+        <button mat-raised-button class="big-circle-button">
+            ?
+        </button>
+    </a>
 </div>
 
 <div class="upper-half">
     <div class="time">
-        {{ utcTime | date: 'HH:mm:ss' : 'UTC' }}
+        {{ solarTime | date: 'HH:mm:ss' : 'UTC' }}
     </div>
 </div>
 
