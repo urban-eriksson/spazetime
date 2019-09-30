@@ -9,11 +9,11 @@ sudo apt-get install -y nodejs
 sudo npm install npm@latest -g
 
 # Angular
+export NG_CLI_ANALYTICS=ci
 sudo npm install -g @angular/cli
 
 # Build prod dist
 sudo chown -R $USER:$(id -gn $USER) /home/ubuntu/.config
-cd ~/spazetime-frontend
+cd ~/spazetime/spazetime-frontend
 npm install
-export NG_CLI_ANALYTICS=ci
 ng build --prod
