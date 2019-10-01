@@ -1,5 +1,7 @@
 # Spazetime - the new paradigm for global time keeping
 
+(See demo here: www.spazetime.org)
+
 Even Einstein understood that you cannot just separate space and time. At one place in the world it can be early afternoon, while at another, it is in the middle of the night. So who decides what time it is at the place you are standing or sitting in right now? Should it be some random dude drawing time zones on a map? No, of course not. It should be our sun, as has been the case since the dawn of life on this planet, up until only very recently. Time of day should be in harmony with noon and midnight for everyone, at every location. This is how time was originally defined and meant to be. Now there would seem to arise a problem with this. How will people at different places agree on which time things should be done? Enter spazetime.
 
 ## How does spazetime work?
