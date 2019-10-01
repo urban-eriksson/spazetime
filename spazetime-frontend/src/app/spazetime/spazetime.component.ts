@@ -28,7 +28,7 @@ export class SpazetimeComponent implements OnInit, OnDestroy {
 
   }
 
-  getTimeAndLocation(): void{
+  getTimeAndLocation(): void {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition((position) => {
           console.log(position);

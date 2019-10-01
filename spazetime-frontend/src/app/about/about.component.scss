@@ -1,22 +1,62 @@
+.info-button {
+    width: 100%;
+    position: absolute;
+    display: block;
+    text-align: right;
+}
+
+.big-circle-button {
+    //display:block;
+    margin-top: 24px;
+    margin-right: 24px;
+    //background-color: black;
+    font-size: 36px;
+    color: rgba(0,0,0,.69);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 3px solid rgba(0,0,0,.69);
+  }
+
+  .mat-icon {
+    color: rgba(0,0,0,.69);
+    font-size: 36px;
+    margin-top: -16px;
+    margin-left: -10px;
+    // margin-right: 60px;
+    //margin-top: 24px;
+}
+
+.mat-icon:hover {
+    cursor: pointer;
+}
+
+
+
 .about-wrapper {
+    position: absolute;
     width: 100%;
     height: 100%;
-    background: black;
 }
 
 .single-column {
-    max-width: 1000px;
-    overflow-y: scroll;
+    max-width: 800px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
 
 h1 {
-    color: white;
+    // color: white;
 }
  
 
 p {
-    color: white;
-    font-size: 24px;
+    // color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 0 0 24px 0;
+    color: rgba(0,0,0,.69);
+
 }

@@ -1,4 +1,3 @@
-
 <div class="info-button">
     <a routerLink="/about">
         <button mat-raised-button class="big-circle-button">
@@ -8,13 +7,26 @@
 </div>
 
 <div class="upper-half">
-    <div class="time">
-        {{ solarTime | date: 'HH:mm:ss' : 'UTC' }}
+    <div class="upper-semi-circle">
+        <div class="time-title">
+            <img src="/assets/sun.png">
+            TIME
+        </div>
+        <div class="time">
+            {{ solarTime | date: 'HH:mm:ss' : 'UTC' }}
+        </div>
     </div>
 </div>
 
 <div class="lower-half">
-    <div class="spaze">
+        <div class="lower-semi-circle">
+                <div class="spaze">
         {{ spazeSign }}{{spazeHours}}:{{spazeMinutes}}:{{spazeSeconds}}
     </div>
+    <div class="spaze-title">
+            <img src="/assets/world.png">
+            SPAZE
+        </div>
+
+</div>
 </div>
