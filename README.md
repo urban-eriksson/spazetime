@@ -6,7 +6,7 @@ Even Einstein understood that you cannot just separate space and time. At one pl
 
 ## How does spazetime work?
 
-Spazetime consists of two components, spaze and time. Time is simply the local solar time. The day starts when the night is at its darkest, 00:00 and ends 24 hours later. 12:00 then naturally conicides with noon. Spaze is the east-west position on earth, and is directly related to your longitudinal position. It has been given the same units as time: hours, minutes and seconds. One lap around the world then equals 24 hours of spaze. One can simply calculate spaze by dividing the longitude with 15 and reversing the sign. Spaze can nowadays easily be obtained with a mobile phone, by using the GPS. The local solar time is a litte bit more complicated. First the mean solar time can be calculated by subtracting spaze from the Coordinated Universal Time (UTC). To get closer to the true local solar time one needs to apply a correction because of the obliquity of the eccliptic for the earth and also the eccentricity of the earth's orbit around the sun. These effects are summarized into something which is called the "equation of time", see figure 1. There exist different levels of refinement for this calculation, and to get the true local solar time to within a roughly a second of accuracy the calculations get quite complicated. One can use simpler formulas, but still be able to predict the local solar time with an accuracy in the order of +/- 10 seconds, see for example
+Spazetime consists of two components, spaze and time. Time is simply the local solar time. The day starts when the night is at its darkest, 00:00 and ends 24 hours later. 12:00 then naturally conicides with noon. Spaze is the east-west position on earth, and is directly related to your longitudinal position. It has been given the same units as time: hours, minutes and seconds. One lap around the world then equals 24 hours of spaze. One can simply calculate spaze by dividing the longitude with 15 and reversing the sign. Spaze can nowadays easily be obtained with a mobile phone, by using the GPS. The local solar time is a litte bit more complicated. First the mean solar time can be calculated by subtracting spaze from the Coordinated Universal Time (UTC). To get closer to the true local solar time one needs to apply a correction because of the obliquity of the eccliptic for the earth and also the eccentricity of the earth's orbit around the sun. These effects are summarized into something which is called the "equation of time", see figure 1. There exist different levels of refinement for this calculation, and to get the true local solar time to within a roughly a second of accuracy the calculations get quite complicated. One can use simpler formulas, but still be able to predict the local solar time with an accuracy in the order of +/- 10 seconds, see for example:
 
 https://www.esrl.noaa.gov/gmd/grad/solcalc/solareqns.PDF
 
@@ -19,6 +19,10 @@ The formula in the referenced document is what has been used in this application
 
 
 To conclude, when communicating with other people, one should always use both spaze and time. Nothing more then needs to be specified. No time zones need to be considered, they are completely obsolete. No more summer time or winter time. No more misunderstandings when setting up phone meetings accross continents.
+
+The source code is available at:
+
+https://github.com/urban-eriksson/spazetime
 
 
 ### Example 1:
