@@ -61,9 +61,9 @@ export class SpazetimeComponent implements OnInit, OnDestroy {
            - 0.040849 * Math.sin(2 * gamma));
           console.log(dayFraction);
           console.log(eqtime);
-          const utcDate = (new Date()).getTime();
+          const utcDate = now.getTime();
           console.log(utcDate);
-          const localDate = utcDate - spaze * 60000 * 60;
+          const localDate = utcDate - spaze * 60000 * 60 + eqtime * 60000;
           this.solarTime = new Date(localDate);
 
           if (spaze < 0) {

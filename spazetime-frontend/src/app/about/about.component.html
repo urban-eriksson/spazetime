@@ -1,46 +1,62 @@
-
 <div class="about-wrapper">
 
-        <div class="info-button">
-                <a routerLink="/spazetime">
-                    <button mat-raised-button class="big-circle-button">
-                        <mat-icon>arrow_back</mat-icon>
-                    </button>
-                </a>
-            </div>
-            
+    <div class="info-button">
+        <a routerLink="/spazetime">
+            <button mat-raised-button class="big-circle-button">
+                <mat-icon>arrow_back</mat-icon>
+            </button>
+        </a>
+    </div>
+
 
     <div class="single-column mat-typography">
 
         <h1>Spazetime, the new paradigm for global time keeping</h1>
 
         <p>Even Einstein understood that you cannot just separate space and time. At one place in the world it can be
-            early afternoon,
-            while at another, it is in the middle of the night. So who decides what time it is at the place you are
-            standing or sitting
-            in right now? Should it be some random dude drawing time zones on a map? No, of course not. It should be our
-            sun, as has been
-            the case since the dawn of life on this planet, up until only very recently. Time of day should be in
-            harmony with noon and
-            midnight for everyone, at every location. This is how time was originally defined and meant to be. Now there
-            would seem to
-            arise a problem with this. How will people at different places agree on which time things should be done?
-            Enter spazetime.</p>
+            early afternoon, while at another, it is in the middle of the night. So who decides what time it is at the
+            place you are standing or sitting in right now? Should it be some random dude drawing time zones on a map?
+            No, of course not. It should be our sun, as has been the case since the dawn of life on this planet, up
+            until just very recently. Time of day should be in harmony with noon and midnight for everyone, at every
+            location. This is how time was originally defined and meant to be. Now there would seem to arise a problem
+            with this. How will people at different places agree on which time things should be done? Enter spazetime.
+        </p>
 
         <h2>How does spazetime work?</h2>
 
         <p>Spazetime consists of two components, spaze and time. Time is simply the local solar time. The day starts
             when the night is at its darkest, 00:00 and ends 24 hours later. 12:00 then naturally conicides with noon.
-            Spaze is your east-west position on earth. It is essentially the same as the longitudinal position. To
-            simplify calculations, it has the same units as time: hours, minutes and seconds and a reversed sign. One
-            lap around the world equals 24 hours of spaze. In other words you can simply calculate spaze by taking the
-            minus of the longitude divided by 15. Both spaze and time can nowadays easily be obtained with a mobile
-            phone, by using the GPS and the Coordinated Universal Time (UTC). To get the local solar time, spaze is
-            simply subtracted from the UTC.</p>
+            Spaze is the east-west position on earth, and is directly related to your longitudinal position. It has been
+            given the same units as time: hours, minutes and seconds. One lap around the world then equals 24 hours of
+            spaze. One can simply calculate spaze by dividing the longitude with 15 and reversing the sign. Spaze can
+            nowadays easily be obtained with a mobile phone, by using the GPS. The local solar time is a litte bit more
+            complicated. First the mean solar time can be calculated by subtracting spaze from the Coordinated Universal
+            Time (UTC). To get closer to the true local solar time one needs to apply a correction because of the
+            obliquity of the eccliptic for the earth and also the eccentricity of the earth's orbit around the sun.
+            These effects are summarized into something which is called the "equation of time", see figure 1. There
+            exist different levels of refinement for this calculation, and to get the true local solar time to within a
+            roughly a second of accuracy the calculations get quite complicated. One can use simpler formulas, but still
+            be able to predict the local solar time with an accuracy in the order of +/- 10 seconds, see for example:
+        </p>
 
-        <p>When communicating with other people, one should always use both spaze and time. Nothing more then needs to
-            be specified. No time zones need to be considered, they are completely obsolete. No more summer time or
-            winter time. No more misunderstandings when setting up phone meetings accross continents.</p>
+        <p><a href="https://www.esrl.noaa.gov/gmd/grad/solcalc/solareqns.PDF">
+            https://www.esrl.noaa.gov/gmd/grad/solcalc/solareqns.PDF</a></p>
+
+        <p>The formula in the referenced document is what has been used in this application. In order to make spazetime
+            a global standard, one single formula needs to be agreed on.</p>
+
+        <img src="assets/equation-of-time.png">
+        <div class="caption">
+        <p><b>Figure 1.</b> Equation of time over a whole tropical year.</p>
+        </div>
+        <p>To conclude, when communicating with other people, one should always use both spaze and time. Nothing more
+            then needs to be specified. No time zones need to be considered, they are completely obsolete. No more
+            summer time or winter time. No more misunderstandings when setting up phone meetings accross continents.</p>
+
+        <p>The source code is available at:</p>
+
+        <p><a href="https://github.com/urban-eriksson/spazetime">
+            https://github.com/urban-eriksson/spazetime</a></p>
 
         <h3><u>Example 1:</u></h3>
 
