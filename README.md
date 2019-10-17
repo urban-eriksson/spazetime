@@ -20,6 +20,10 @@ The formula in the referenced document is what has been used in this application
 
 To conclude, when communicating with other people, one should always use both spaze and time. Nothing more then needs to be specified. No time zones need to be considered, they are completely obsolete. No more summer time or winter time. No more misunderstandings when setting up phone meetings accross continents.
 
+The source code is available at:
+
+https://github.com/urban-eriksson/spazetime
+
 
 ### Example 1:
 
