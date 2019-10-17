@@ -15,7 +15,7 @@ This formula is what has been applied in the application. To make spazetime a gl
 <p align="center"> 
 <img src="https://github.com/urban-eriksson/spazetime/blob/master/images/equation-of-time.png">
 </p>
-<p algin="center><b>Figure 1.</b> Equation of time over a whole tropical year.</p>
+<p align="center><b>Figure 1.</b> Equation of time over a whole tropical year.</p>
 
 To conclude, when communicating with other people, one should always use both spaze and time. Nothing more then needs to be specified. No time zones need to be considered, they are completely obsolete. No more summer time or winter time. No more misunderstandings when setting up phone meetings accross continents.
 
