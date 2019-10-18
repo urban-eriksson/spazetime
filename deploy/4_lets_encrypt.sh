@@ -4,4 +4,5 @@
 # Check inbound rules on aws
 sudo add-apt-repository ppa:certbot/certbot
 sudo apt install python-certbot-nginx
-sudo certbot --nginx -d spazetime.org -d www.spazetime.org
+# sudo certbot --nginx -d spazetime.org -d www.spazetime.org
+sudo certbot --nginx -d localsolartime.org -d www.localsolartime.org
