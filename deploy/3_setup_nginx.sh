@@ -11,7 +11,7 @@ server {
     listen 80;
     listen [::]:80;
 
-    server_name spazetime.org www.spazetime.org;
+    server_name localsolartime.org www.localsolartime.org;
     
     root /home/ubuntu/spazetime/spazetime-frontend/dist/spazetime-frontend;
 
