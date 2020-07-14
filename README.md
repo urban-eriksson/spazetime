@@ -1,3 +1,7 @@
+<p align="center"> 
+<img src="https://github.com/urban-eriksson/spazetime/blob/master/images/equation-of-time.png">
+</p>
+
 # Placetime - the global local time format
 
 (See demo here: www.localsolartime.org)
