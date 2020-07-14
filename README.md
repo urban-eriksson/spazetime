@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://github.com/urban-eriksson/spazetime/blob/master/images/equation-of-time.png">
+<img src="https://github.com/urban-eriksson/spazetime/blob/master/images/solartime.png">
 </p>
 
 # Placetime - the global local time format
